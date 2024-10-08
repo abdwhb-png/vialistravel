@@ -18,6 +18,6 @@
 
 -   \*\*PHP >= 8.1
 -   \*\*Composer
-    Node.js >= 14
-    NPM or Yarn
-    MySQL or any compatible database
+-   \*\*Node.js >= 14
+-   \*\*NPM or Yarn
+-   \*\*MySQL or any compatible database
