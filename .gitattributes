@@ -1,3 +1,18 @@
+/*************  ✨ Codeium Command 🌟  *************/
+# This comment tells GitHub that the primary language of this repository is PHP.
+# This information is used by GitHub to determine the language statistics and
+# to provide the correct syntax highlighting for code blocks in the repository.
+# It is not required for the repository to function properly, but it can be
+# useful for other developers who may be interested in the language composition
+# of the repository.
+/******  76383738-cf92-47e2-817c-b7540dc12dfb  *******/
+*.php linguist-language=PHP
+
+# Ignore les fichiers front-end ou JavaScript
+/public/js/* linguist-vendored
+/resources/js/* linguist-vendored
+/node_modules/* linguist-vendored
+
 * text=auto eol=lf
 
 *.blade.php diff=html
