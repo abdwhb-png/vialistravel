@@ -12,11 +12,13 @@
 /public/js/* linguist-vendored
 /resources/js/* linguist-vendored
 /node_modules/* linguist-vendored
+/public/css/* linguist-vendored
+/resources/css/* linguist-vendored
 
 * text=auto eol=lf
 
-*.blade.php diff=html
-*.css diff=css
+*.blade.php diff=php
+# *.css diff=css
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
