@@ -1,0 +1,26 @@
+.auth-bg {
+    background-image: url("/images/auth-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content: center;
+}
+.logo-wrap img {
+    display: block;
+}
+
+.login-wrap {
+    position: relative;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgb(255 255 255 / 70%) !important;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}

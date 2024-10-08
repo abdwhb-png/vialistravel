@@ -1,0 +1,83 @@
+[style*=font]:not([id^=om-]) {
+  all: unset !important;
+}
+
+a a {
+  display: none;
+}
+
+.dolly-in-slow {
+  animation: dolly-in-slow 10s ease-out both;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.hide-off-canvas {
+  position: fixed;
+  top: -9999px;
+}
+
+.hide,
+[hide~=all] {
+  display: none;
+}
+
+[hide~="all!"] {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  [hide~=sm] {
+    display: none;
+  }
+  [hide~="sm!"] {
+    display: none !important;
+  }
+}
+@media (min-width: 0) {
+  [hide~="sm+"] {
+    display: none;
+  }
+  [hide~="sm!+"],
+  [hide~="sm+!"] {
+    display: none !important;
+  }
+  [src$="www.nathab.com"] {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  [hide~=md] {
+    display: none;
+  }
+  [hide~="md!"] {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  [hide~="md+"] {
+    display: none;
+  }
+  [hide~="md!+"],
+  [hide~="md+!"] {
+    display: none !important;
+  }
+}
+@media (min-width: 1024px) {
+  [hide~=lg],
+  [hide~="lg+"] {
+    display: none;
+  }
+  [hide~="lg!"],
+  [hide~="lg!+"],
+  [hide~="lg+!"] {
+    display: none !important;
+  }
+}
+[divider] {
+  border-top: 1px solid var(--brand-gray-dark);
+}
+
+/*# sourceMappingURL=style.css.map */

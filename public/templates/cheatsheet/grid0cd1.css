@@ -1,0 +1,232 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	RESET
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+/* Honestly, not totally sure why I have this. */
+html {
+	-webkit-font-smoothing: antialiased !important;
+}
+
+body {
+	min-height: 100%;
+	line-height: var(--line-height-1);
+}
+
+
+aside,
+details,
+div,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+menu,
+nav,
+section {
+	/* display: block; */
+	/* margin: auto; */
+	overflow: hidden;
+	vertical-align: baseline;
+}
+
+nav ul {
+	list-style: none;
+}
+
+
+q {
+	quotes: none;
+}
+
+
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+img,
+object,
+embed {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	COMMON CLASSES TO SPEED DEVELOPMENT
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+.left {
+	float: left;
+	left: 0;
+}
+
+.right {
+	float: right;
+	right: 0;
+}
+
+.top {
+	top: 0;
+}
+
+.bottom {
+	bottom: 0;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.abs {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.inline {
+	display: inline;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.none,
+.hide {
+	display: none;
+}
+
+.show,
+.block {
+	display: block !important;
+}
+
+.visible {
+	overflow: visible;
+}
+
+.test {
+	background: pink;
+	background: rgba(255, 0, 0, 0.1);
+}
+
+/* This comes in handy when debugging element positioning. */
+.test:hover {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+.parent {
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 auto !important;
+}
+
+/* Use .parent class if there are children elements present. */
+/* What is this .parent class for? */
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	STAGE
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+.stage {
+	width: 100%;
+	max-width: 1040px;
+}
+
+/* Change max-width as needed. */
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	NAV - VERTICAL (DEFAULT)
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+nav ul,
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Reset browser defaults. */
+nav li a {
+	display: block;
+}
+
+/* Creates a bigger hit area. */
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	NAV - HORIZONTAL
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+nav.horizontal li {
+	display: inline-block;
+}
+
+/* Creates horizontal navigation and allows for links to be aligned right or left. */
+nav.horizontal li a {
+	display: inline-block;
+}
+
+/* Creates a bigger hit area and keeps the last li from being cut-off when wrapping to 2nd line. */
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	FOR DESKTOP - PERCENTAGE WIDTH
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.x70 {
+	width: 70%;
+}
+
+.x100 {
+	width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------
+	FOR SMALL MOBILE - PERCENTAGE WIDTH (1 COLUMNS)
+-------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+@media all and (min-width:1px) and (max-width:767px) {
+
+	.grid,
+	.x10,
+	.x20,
+	.x25,
+	.x33,
+	.x40,
+	.x50,
+	.x60,
+	.x66,
+	.x75,
+	.x80,
+	.x90,
+	.x100 { width:100%; }
+
+	.fixed { position:relative; }
+
+}
+
+*/
+
+/*# sourceMappingURL=grid.css.map */

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "proximanovabold";
+    src: url("https://embedsocial.com/cdn/fonts/proximanovabold/proximanovabold.eot");
+    src: url("https://embedsocial.com/cdn/fonts/proximanovabold/proximanovabold.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://embedsocial.com/cdn/fonts/proximanovabold/proximanovabold.woff2")
+            format("woff2"),
+        url("https://embedsocial.com/cdn/fonts/proximanovabold/proximanovabold.woff")
+            format("woff"),
+        url("https://embedsocial.com/cdn/fonts/proximanovabold/proximanovabold.ttf")
+            format("truetype"),
+        url("https://embedsocial.com/cdn/fonts/proximanovabold/proximanovabold.svg#ProximaNovaCond-Bold")
+            format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "proximanova";
+    src: url("https://embedsocial.com/cdn/fonts/proximanova/proximanova.eot");
+    src: url("https://embedsocial.com/cdn/fonts/proximanova/proximanova.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://embedsocial.com/cdn/fonts/proximanova/proximanova.woff2")
+            format("woff2"),
+        url("https://embedsocial.com/cdn/fonts/proximanova/proximanova.woff")
+            format("woff"),
+        url("https://embedsocial.com/cdn/fonts/proximanova/proximanova.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "proximanovacond";
+    src: url("https://embedsocial.com/cdn/fonts/proximanova/proximanovacond.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://embedsocial.com/cdn/fonts/proximanova/proximanovacond.woff2")
+            format("woff2"),
+        url("https://embedsocial.com/cdn/fonts/proximanova/proximanovacond.woff")
+            format("woff"),
+        url("https://embedsocial.com/cdn/fonts/proximanova/proximanovacond.ttf")
+            format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: "proximanova", sans-serif;
+}
+
+.title-box {
+    font-family: "proximanovabold", sans-serif;
+    padding: 0px 12px 0px 12px;
+    color: #333333;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#load-more-pages-btn {
+    background-color: #3d7fa9;
+    border-color: #3d7fa9;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    font-family: "proximanovabold", sans-serif;
+}
+
+path {
+    fill: #cbcbcb !important;
+}
+
+path.fill {
+    fill: #86342d !important;
+}
+
+.reviews-text {
+    font-size: 16px !important;
+    font-color: #333333 !important;
+}
+
+.container-fluid.gallery-view {
+    width: 100% !important;
+}
+
+.gallery-view {
+    padding: 6px 40px 6px 0px;
+}
+
+#load-more-pages-btn:hover,
+#load-more-pages-btn:focus {
+    background-color: #7eb0ce;
+    border-color: #7eb0ce;
+    color: #fff;
+}
+
+.list {
+    width: 1150px;
+}
+
+.row {
+    width: 100% !important;
+}
+
+.col-sm-offset-3 {
+    margin-left: 0px;
+}
+
+.div-img-boxed-1 {
+    display: none;
+}
+
+.sub-title-box {
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 15px 15px;
+    font-family: "proximanovabold", sans-serif;
+}
+
+.reviewer-name {
+    color: #333333;
+    font-size: 1.3rem;
+    font-family: "proximanovabold", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-sizer,
+    .grid-item {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .grid-sizer,
+    .grid-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .grid-sizer,
+    .grid-item {
+        width: 33.3%;
+    }
+}
+
+.border-boxes {
+    border: 1px solid #d5d5d5;
+}
+
+.block-link-hover3 {
+    box-shadow: none;
+}
+
+#load-more-pages-btn {
+    text-transform: none;
+}
+
+.review-grid-social-icons {
+    display: none;
+}
