@@ -14,4 +14,10 @@
 -   **Contact Form**: A form to ask questions or provide feedback.
 -   **Refer a Friend**: Share offers with friends.
 
-## Contact Information
+## Prerequisites
+
+-   \*\*PHP >= 8.1
+-   \*\*Composer
+    Node.js >= 14
+    NPM or Yarn
+    MySQL or any compatible database

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'join_code' => '', // Put a registration code for invited staff member here.
+    'join_code' => env('REGISTRATION_CODE'),
     'roles' => [
         'admin',
         'superadmin',
